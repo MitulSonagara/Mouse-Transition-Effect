@@ -1,0 +1,21 @@
+<!-- demo/index.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snowfall Effect Demo</title>
+    <script type="module">
+        import { createSnowfallEffect } from "../dist/esm.js";
+
+        document.addEventListener("DOMContentLoaded", function () {
+            createSnowfallEffect('body', ['assets/snowflake1.svg', 'assets/snowflake2.svg', 'assets/snowflake3.svg']);
+        });
+    </script>
+</head>
+<body>
+    <h1>Snowfall Effect Demo</h1>
+    <p>Move your mouse to see the snowfall effect!</p>
+</body>
+</html>
